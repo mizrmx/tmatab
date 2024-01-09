@@ -97,7 +97,7 @@ a {
   margin: 0 26px;
 }
 .home-header-section {
-  background:url(../images/autorix-background-img.jpg);
+  background:url(../img/autorix-background-img.jpg);
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -164,7 +164,7 @@ a {
   right: 0;
   margin: 0 auto;
   content: "";
-  background:url(../images/nav-before-img.png);
+  background:url(../img/nav-before-img.png);
 }
 
 /* hover */
@@ -177,7 +177,7 @@ a {
   right: 0;
   margin: 0 auto;
   content: "";
-  background:url(../images/nav-before-img.png);
+  background:url(../img/nav-before-img.png);
 }
 .navbar-nav .dropdown .autorix-drop-down li:hover > a:before {
   display: none;
@@ -228,7 +228,7 @@ a {
   margin-left: 43px;
 }
 .autorix-text:before {
-  background: url(../images/text-bars.png);
+  background: url(../img/text-bars.png);
   content: "";
   width: 28px;
   height: 20px;
@@ -342,7 +342,7 @@ a {
   color: var(--e-global-color-primary);
 }
 .whychoose-section .autorix-text:before {
-  background: url(../images//whychoose-bars.png);
+  background: url(../img/whychoose-bars.png);
   content: "";
   width: 28px;
   height: 20px;
@@ -543,7 +543,7 @@ nav.fill ul li a:after {
   position: relative;
 }
 .about-us-section:before {
-  background: url(../images/aboutus-background.png);
+  background: url(../img/aboutus-background.png);
   content: "";
   position: absolute;
   top:0px;
@@ -556,7 +556,7 @@ nav.fill ul li a:after {
   margin-left:0px;
 }
 .about-us-section .about-text:before {
-  background: url(../images/text-bars.png);
+  background: url(../img/text-bars.png);
   content: "";
   width: 28px;
   height: 20px;
@@ -606,7 +606,7 @@ nav.fill ul li a:after {
   font-weight: 700;
 }
 .about-us-section::after {
-  background: url(../images/about-after-img.png);
+  background: url(../img/about-after-img.png);
   content: "";
   width: 139px;
   height: 141px;
@@ -630,7 +630,7 @@ nav.fill ul li a:after {
 
 /* our-services */
 .our-services-section .autorix-text:before {
-  background: url(../images//whychoose-bars.png);
+  background: url(../img/whychoose-bars.png);
   content: "";
   width: 28px;
   height: 20px;
@@ -641,7 +641,7 @@ nav.fill ul li a:after {
   margin: 0 auto;
 }
 .our-services-section{
-  background-image:url(../images/our-services-background-img.jpg);
+  background-image:url(../img/our-services-background-img.jpg);
   padding: 138px 0 140px;
 }
 .our-services-section .autorix-text {
@@ -747,7 +747,7 @@ nav.fill ul li a:after {
   color: var(--e-global-color-accent);
 }
 .mission-section .autorix-text:before {
-  background: url(../images//whychoose-bars.png);
+  background: url(../img//whychoose-bars.png);
   content: "";
   width: 28px;
   height: 20px;
@@ -878,11 +878,11 @@ color:var(--e-global-color-text)
 /* offer-section */
 .offer-section{
   padding: 140px 0;
-  background: url(../images/offer-section-background.jpg);
+  background: url(../img/offer-section-background.jpg);
   position: relative;
 }
 .offer-section:before {
-  background: url(../images/offer-section-left-img.png);
+  background: url(../img/offer-section-left-img.png);
   content: "";
   width: 169px;
   height: 152px;
@@ -892,7 +892,7 @@ color:var(--e-global-color-text)
   right: 0;
 }
 .offer-section::after {
-  background: url(../images/offer-section-right-img.png);
+  background: url(../img/offer-section-right-img.png);
   content: "";
   width: 169px;
   height: 152px;
@@ -901,7 +901,7 @@ color:var(--e-global-color-text)
   bottom: -24px;
 }
 .offer-section .offer-text:before {
-  background: url(../images/text-bars.png);
+  background: url(../img/text-bars.png);
   content: "";
   width: 28px;
   height: 20px;
@@ -974,12 +974,12 @@ color:var(--e-global-color-text)
 
 /* teams-section */
 .teams-section{
-  background-image: url(../images/our-services-background-img.jpg);
+  background-image: url(../img/our-services-background-img.jpg);
   padding: 138px 0 140px;
   position: relative;
 }
 .teams-section .autorix-text:before {
-  background: url(../images//whychoose-bars.png);
+  background: url(../img//whychoose-bars.png);
   content: "";
   width: 28px;
   height: 20px;
@@ -1285,7 +1285,7 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
   z-index: -1;
 }
 .our-work-section .autorix-text:before {
-  background: url(../images//whychoose-bars.png);
+  background: url(../img//whychoose-bars.png);
   content: "";
   width: 28px;
   height: 20px;
@@ -1374,12 +1374,12 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
 
 /* form-section */
 .contact-us-form{
-  background-image: url(../images/our-services-background-img.jpg);
+  background-image: url(../img/our-services-background-img.jpg);
   padding: 138px 0 140px;
   position: relative;
 }
 .contact-us-form .autorix-text:before {
-  background: url(../images//whychoose-bars.png);
+  background: url(../img//whychoose-bars.png);
   content: "";
   width: 25px;
   height: 21px;
@@ -1482,11 +1482,11 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
 /* carousel-section */
 .carousel-section{
   padding: 140px 0;
-  background: url(../images/carousel-section-img.jpg);
+  background: url(../img/carousel-section-img.jpg);
   position: relative;
 }
 .carousel-section:before {
-  background: url(../images/offer-section-left-img.png);
+  background: url(../img/offer-section-left-img.png);
   content: "";
   width: 169px;
   height: 152px;
@@ -1496,7 +1496,7 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
   right: 0;
 }
 .carousel-section::after {
-  background: url(../images/offer-section-right-img.png);
+  background: url(../img/offer-section-right-img.png);
   content: "";
   width: 169px;
   height: 152px;
@@ -1746,7 +1746,7 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
 
 /* about-us-page */
 .sub-header-section{
-  background: url(../images/sub-header-section.jpg);
+  background: url(../img/sub-header-section.jpg);
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1801,10 +1801,10 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
   right: 0;
   margin: 0 auto;
   content: "";
-  background: url(../images/nav-before-img.png);
+  background: url(../img/nav-before-img.png);
 }
 .sub-header-section:before {
-  background: url(../images/about-before-img.png);
+  background: url(../img/about-before-img.png);
   content: "";
   width: 149px;
   height: 152px;
@@ -1814,7 +1814,7 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
   right: 0;
 }
 .sub-header-section:after {
-  background: url(../images/about-us-after-img.png);
+  background: url(../img/about-us-after-img.png);
   content: "";
   width: 727px;
   height: 313px;
@@ -1825,7 +1825,7 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
 
 /* aboutpage-about-section */
 .about-us-section-page .autorix-text:before {
-  background: url(../images//whychoose-bars.png);
+  background: url(../img//whychoose-bars.png);
   content: "";
   width: 28px;
   height: 20px;
@@ -1941,13 +1941,13 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
   margin: 0 auto;
 }
 .best-choice-section {
-  background:url(../images/best-choice-background.jpg);
+  background:url(../img/best-choice-background.jpg);
   padding: 142px 0 55px;
   position: relative;
   overflow: hidden;
 }
 .best-choice-section:before {
-  background: url(../images/best-choice-before.png);
+  background: url(../img/best-choice-before.png);
   content: "";
   width: 1059px;
   height: 744px;
@@ -1961,7 +1961,7 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
   overflow: hidden;
 }
 .box-section  .mission-box {
-  background: url(../images/red-box-img.png);
+  background: url(../img/red-box-img.png);
   background-position: bottom;
   background-repeat: no-repeat;
   text-align: center;
@@ -1992,7 +1992,7 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
 }
 
 .best-choice-section .autorix-text:before {
-  background: url(../images/best-choic-bars.png);
+  background: url(../img/best-choic-bars.png);
   content: "";
   width: 28px;
   height: 20px;
@@ -2041,7 +2041,7 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
   margin-bottom: 143px;
 }
 .best-choice-section::after {
-  background: url(../images/offer-section-right-img.png);
+  background: url(../img/offer-section-right-img.png);
   content: "";
   width: 196px;
   height: 152px;
@@ -2119,7 +2119,7 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
   color: var(--e-global-color-accent);
 }
 .our-teams-page .autorix-text:before {
-  background: url(../images//whychoose-bars.png);
+  background: url(../img//whychoose-bars.png);
   content: "";
   width: 28px;
   height: 20px;
@@ -2175,7 +2175,7 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
   color: var(--e-global-color-accent);
 }
 .our-products .autorix-text:before {
-  background: url(../images//whychoose-bars.png);
+  background: url(../img//whychoose-bars.png);
   content: "";
   width: 28px;
   height: 20px;
@@ -2299,7 +2299,7 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
 }
 /* map-section */
 .map-section{
-  background-image: url(../images/our-services-background-img.jpg);
+  background-image: url(../img/our-services-background-img.jpg);
   padding: 142px 0 0px;
   position: relative;
 }
@@ -2307,7 +2307,7 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
 /* contact-form */
 
 .contact-form-section {
-  background-image: url(../images/our-services-background-img.jpg);
+  background-image: url(../img/our-services-background-img.jpg);
   padding: 100px 0 140px;
   position: relative;
 }
@@ -2398,7 +2398,7 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
   color: var(--e-global-color-accent);
 }
 .contact-form-section .autorix-text:before {
-  background: url(../images//whychoose-bars.png);
+  background: url(../img//whychoose-bars.png);
   content: "";
   width: 28px;
   height: 20px;
@@ -2572,7 +2572,7 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
   line-height: 16px !important;
   text-align: center;
   transition: ease-in-out 0.4s;
-  background-image:url(../images/dropdown-arrow.png);
+  background-image:url(../img/dropdown-arrow.png);
 }
 .nft-section .create-nft-box .form-group {
   float: left;
@@ -2607,7 +2607,7 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
 .nft-section input[type="date"]::-webkit-calendar-picker-indicator {
   opacity: 1;
   display: block;
-  background-image: url(../images/calendar.png);
+  background-image: url(../img/calendar.png);
 }
 .nft-section .create-nft-box .form-group textarea {
   height: 117px !important;
@@ -2663,7 +2663,7 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
 /* Checkout & Cart Product Section */
 
 .product-section {
-  background-image: url(../images/our-services-background-img.jpg);
+  background-image: url(../img/our-services-background-img.jpg);
   padding: 138px 0 140px;
   position: relative;
 }
