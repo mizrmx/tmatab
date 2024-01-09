@@ -79,7 +79,7 @@ p{
     content: "";
     width: 100%;
     height: 100%;
-    background: url(../image/bg-img.png) no-repeat center;
+    background: url(../img/bg-img.png) no-repeat center;
     background-size: cover;
     position: absolute;
     top: 0;
@@ -91,7 +91,7 @@ p{
     height: 335px;
     position: absolute;
     left: 0;
-    background: url(../image/left-white-circle.png) no-repeat center;
+    background: url(../img/left-white-circle.png) no-repeat center;
     background-size: cover;
     top: 391px;   
     animation: right-mover 1s infinite alternate;
@@ -107,7 +107,7 @@ p{
     height: 336px;
     position: absolute;
     right: 0;
-    background: url(../image/right-white-circle.png) no-repeat center;
+    background: url(../img/right-white-circle.png) no-repeat center;
     background-size: cover;
     top: 80px;  
     animation: left-mover 1s infinite alternate;

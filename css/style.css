@@ -29,8 +29,8 @@ body {
   --e-global-color-accent: #b50c09;
   --e-global-color-text: #707070;
   --e-global-color-light-blue: #1b2536;
-  --e-global-color-dark-blue: #141e34;
-  --e-global-color-dark-blue2: #192541;
+  --e-global-color-dark-blue: #2F97DE;
+  --e-global-color-dark-blue2: #346597;
   --e-global-color-soft-blue: #a4abbb;
   --e-global-color-very-dark-blue: #0e172a;
   --e-global-color-red: #c43d3a;
@@ -97,7 +97,7 @@ a {
   margin: 0 26px;
 }
 .home-header-section {
-  background:url(../img/autorix-background-img.jpg);
+  background: url(../img/background/bg_tmatab.jpg);
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
