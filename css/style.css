@@ -300,7 +300,7 @@ a
   transform:translate(0, -5px);
 }
 .home-banner-section .banner-btn a {
-  background: var(--e-global-color-accent);
+  background: var(--e-global-color-dark-blue);
   line-height: 21px;
   font-size: 16px;
   color: var(--e-global-color-secondary);
@@ -311,7 +311,7 @@ a
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
-  border: 1px solid var(--e-global-color-accent);
+  border: 1px solid var(--e-global-color-dark-blue);
   transition: all ease-in-out 0.3s;
 }
 .home-banner-section .banner-btn a i {
