@@ -215,23 +215,34 @@ a
 .home-banner-section .home-banner-text {
   padding: 0px 0 277px 0px;
 }
-.home-banner-section{
+.home-banner-section
+{
   padding-top: 157px;
   padding-left: 344px;
   position: relative;
 }
-.banner-img{
+
+.banner-img
+{
   position: absolute;
-  right: -45px;
+  right: -125px;
   bottom: 0px;
-  top: 102px;
+  top: 100px;
 }
-.home-banner-text h1 {
+
+.banner-img-width
+{
+  max-width: 90%;
+}
+
+.home-banner-text h1 
+{
   margin-bottom: 10px;
   padding-right: 67px;
 }
 
-.banner-paragraph {
+.banner-paragraph 
+{
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
@@ -239,18 +250,25 @@ a
   margin-bottom: 40px;
   padding-right: 134px;
 }
-.home-banner-section .banner-container-box  .social-icons ul{
+
+.home-banner-section .banner-container-box  .social-icons ul
+{
   left: -250px;
   top: 39px;
 }
-.home-banner-section .banner-img-outer{
+
+.home-banner-section .banner-img-outer
+{
   padding-top: 100px;
 }
-.autorix-text {
+
+.autorix-text 
+{
   letter-spacing: 0px;
   margin-bottom: 24px;
   margin-left: 43px;
 }
+
 .autorix-text:before {
   background: url(../img/text-bars.png);
   content: "";
