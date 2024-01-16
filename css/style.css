@@ -109,7 +109,14 @@ a
   font-weight: 400;
 }
 
-/****** header and banner section******/
+.text-uppercase
+{
+  text-transform: uppercase;
+}
+
+/******************************
+  HEADER AND BANNER SECTION
+******************************/
 
 .navbar-nav li:first-child 
 {
