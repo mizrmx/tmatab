@@ -1198,17 +1198,22 @@ color:var(--e-global-color-text)
 {
   text-transform: uppercase;
 }
-.offer-section .offer-content .offer-upto{
+
+.offer-section .offer-content .offer-upto
+{
   font-size: 64px;
   line-height: 70px;
   font-weight: 700;
   margin-bottom: 37px;
 }
-.offer-section .offer-content .offer-upto .percent-off{
+
+.offer-section .offer-content .offer-upto .percent-off
+{
   color: var(--e-global-color-dark-blue);
 }
 
-.offer-section .banner-btn a {
+.offer-section .banner-btn a 
+{
   background: var(--e-global-color-dark-blue);
   line-height: 22px;
   font-size: 16px;
@@ -1225,7 +1230,8 @@ color:var(--e-global-color-text)
   box-shadow: var(--box-shadow-button-hover);
 }
 
-.offer-section .banner-btn a:hover{
+.offer-section .banner-btn a:hover
+{
   box-shadow: var(--box-shadow-button);
   transform: translate(2px, -2px);
   letter-spacing: 0;
@@ -1233,26 +1239,34 @@ color:var(--e-global-color-text)
   transition: all ease-in-out 0.3s;
 }
 
-.offer-section .banner-btn a:hover {
+.offer-section .banner-btn a:hover 
+{
   transform: translateY(-5px);
   background: var(--e-global-color-very-dark-blue);
   color: var(--e-global-color-secondary);
   border: 1px solid var(--e-global-color-secondary);
   transition: all ease-in-out 0.3s;
 }
-.offer-section .banner-btn a i {
+
+.offer-section .banner-btn a i 
+{
   margin-left: 35px;
   font-size: 20px;
   line-height: 22px;
 }
 
-/* teams-section */
-.teams-section{
+/******************************
+  TEAMS SECTION
+*******************************/
+.teams-section
+{
   background-image: url(../img/our-services-background-img.jpg);
   padding: 138px 0 140px;
   position: relative;
 }
-.teams-section .autorix-text:before {
+
+.teams-section .autorix-text:before 
+{
   background: url(../img//whychoose-bars.png);
   content: "";
   width: 28px;
@@ -1260,26 +1274,38 @@ color:var(--e-global-color-text)
   top: -2px;
   left: -37px;
 }
-.teams-section .teams-text{
+
+.teams-section .teams-text
+{
   color: var(--e-global-color-dark-blue);
   margin-bottom: 15px;
   text-transform: uppercase;
   margin-left: 36px;
 }
-.teams-section h2{
+
+.teams-section h2
+{
   text-transform: uppercase;
   margin-bottom: 17px;
 }
-.teams-section p{
+
+.teams-section p
+{
   color:var(--e-global-color-text);
 }
-.teams-section .teams-p1{
+
+.teams-section .teams-p1
+{
   margin-bottom:9px;
 }
-.teams-section .teams-p2 {
+
+.teams-section .teams-p2 
+{
   margin-bottom:27px;
 }
-.teams-section .banner-btn a {
+
+.teams-section .banner-btn a 
+{
   background: var(--e-global-color-dark-blue);
   line-height: 22px;
   font-size: 16px;
@@ -1294,19 +1320,25 @@ color:var(--e-global-color-text)
   border: 1px solid var(--e-global-color-dark-blue);
   transition: all ease-in-out 0.3s;
 }
-.teams-section .banner-btn a:hover {
+
+.teams-section .banner-btn a:hover 
+{
   transform: translateY(-5px);
   background: var(--e-global-color-very-dark-blue);
   color: var(--e-global-color-secondary);
   border: 1px solid var(--e-global-color-very-dark-blue);
   transition: all ease-in-out 0.3s;
 }
-.teams-section .banner-btn a i {
+
+.teams-section .banner-btn a i 
+{
   margin-left: 19px;
   font-size: 20px;
   line-height: 22px;
 }
-.teams-section .teams-card{
+
+.teams-section .teams-card 
+{
   background: var(--e-global-color-secondary);
   box-shadow: 0px 6px 38px 0 #dae0e5;
   padding: 37px 33px 28px;
@@ -1315,26 +1347,39 @@ color:var(--e-global-color-text)
   border: 1px solid var(--e-global-color-secondary);
   transition: all 0.3s ease-out;
 }
-.teams-section .teams-card:hover{
+
+.teams-section .teams-card:hover
+{
   background:var(--e-global-color-dark-blue2)
 }
-.teams-section .teams-content{
+
+.teams-section .teams-content
+{
   padding-top: 124px;
 }
 
-.teams-section .teams-icon:focus{
+.teams-section .teams-icon:focus
+{
   box-shadow: 0px 7px 21px 0 #3d4144;
 }
-.teams-section .teams-card:hover .desc{
+
+.teams-section .teams-card:hover .desc
+{
   color: var(--e-global-color-secondary);
 }
-.teams-section .teams-card:hover .title{
+
+.teams-section .teams-card:hover .title
+{
   color: var(--e-global-color-secondary);
 }
-.teams-section .teams-card:hover .teams-icon{
+
+.teams-section .teams-card:hover .teams-icon
+{
  box-shadow: none;
 }
-.teams-section .teams-card .teams-icon, .teams-section .teams-card .teams-cross-icon{
+
+.teams-section .teams-card .teams-icon, .teams-section .teams-card .teams-cross-icon
+{
   position: absolute;
   top: 158px;
   right: 44px;
@@ -1348,44 +1393,61 @@ color:var(--e-global-color-text)
   color: var(--e-global-color-primary);
   cursor: pointer;
 }
-.teams-section .teams-card .teams-icon, .teams-section .teams-card .teams-cross-icon {
+
+.teams-section .teams-card .teams-icon, .teams-section .teams-card .teams-cross-icon 
+{
   position: absolute;
   top: 165px;
   right: 45px;
 }
-.teams-section .teams-card .teams-cross-icon {
-  box-shadow: none;
-}
-.teams-section .teams-card .teams-icon:hover .teams-section .teams-card .teams-cross-icon{
+
+.teams-section .teams-card .teams-cross-icon 
+{
   box-shadow: none;
 }
 
-.teams-section .teams-card .teams-plus-icon img{
+.teams-section .teams-card .teams-icon:hover .teams-section .teams-card .teams-cross-icon
+{
+  box-shadow: none;
+}
+
+.teams-section .teams-card .teams-plus-icon img
+{
 border-radius: 100px;
 box-shadow: 0px 7px 21px 0 #dae0e5;
 }
-.teams-section .teams-card .title{
+
+.teams-section .teams-card .title
+{
  font-size: 16px;
  line-height: 20px;
  font-weight: 700;
  color: var(--e-global-color-dark-blue);
  text-transform: uppercase;
 }
-.teams-section .teams-card .desc{
+
+.teams-section .teams-card .desc
+{
   font-weight: 700;
   color: var(--e-global-color-primary);
   text-transform: uppercase;
   letter-spacing: 0;
 }
-.teams-section .teams-mb{
+
+.teams-section .teams-mb
+{
   margin-bottom: 30px;
 }
-.teams-section .teams-card ul {
+
+.teams-section .teams-card ul 
+{
   top: 115px;
   right: 25px;
   position: absolute;
 }
-.teams-section .teams-card .social-icons {
+
+.teams-section .teams-card .social-icons 
+{
   background: var(--e-global-color-dark-blue);
   width: 38px;
   height: 38px;
@@ -1395,26 +1457,38 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
   line-height: 39px;
   position: relative;
 }
-.teams-section .teams-card .social-icons-outer1 {
+
+.teams-section .teams-card .social-icons-outer1 
+{
   right: -1px;
 }
-.teams-section .teams-card .social-icons-outer2 {
+
+.teams-section .teams-card .social-icons-outer2 
+{
   right: 9px;
   top: -83px;
 }
-.teams-section .teams-card .social-icons-outer3 {
+
+.teams-section .teams-card .social-icons-outer3 
+{
   top: -158px;
   right: 38px;
 }
-.teams-section .teams-card .social-icons-outer4 {
+
+.teams-section .teams-card .social-icons-outer4 
+{
   position: absolute;
   top: -107px;
   left: -180px;
 }
-.teams-section .teams-card .social-icons i {
+
+.teams-section .teams-card .social-icons i 
+{
   color: var(--e-global-color-secondary);
 }
-.teams-section .teams-icon:before, .teams-section .teams-cross-icon:before {
+
+.teams-section .teams-icon:before, .teams-section .teams-cross-icon:before 
+{
   content: "\2b";
   font-size: 20px;
   line-height: 20px;
@@ -1424,18 +1498,26 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
 }
-.teams-section .teams-cross-icon:before {
+
+.teams-section .teams-cross-icon:before 
+{
   content: "\f00d";
   color: var(--e-global-color-dark-blue);
 }
-.teams-icon:before.teams-cross-icon {
+
+.teams-icon:before.teams-cross-icon 
+{
   display: none;
 }
-.teams-section .teams-bottom-img{
+
+.teams-section .teams-bottom-img
+{
   position: absolute;
   bottom: -14px;
 }
-.teams-section .Hide, .teams-section .Hide2, .teams-section .Hide3, .teams-section .Hide4, .teams-section .Hide5, .teams-section .Hide6{
+
+.teams-section .Hide, .teams-section .Hide2, .teams-section .Hide3, .teams-section .Hide4, .teams-section .Hide5, .teams-section .Hide6
+{
   display:none;
 }
 
@@ -2892,7 +2974,9 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
   padding-left: 30px;
   padding-top: 19px;
 }
-.nft-section .create-nft-box .form-check input {
+
+.nft-section .create-nft-box .form-check input 
+{
   width: 24px;
   height: 24px;
   line-height: 24px;
@@ -2901,17 +2985,23 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
   border-radius: 100px;
   -webkit-appearance: none;
 }
-.nft-section .create-nft-box .form-check input:checked {
+
+.nft-section .create-nft-box .form-check input:checked 
+{
   -webkit-appearance: auto;
 }
-.nft-section .create-nft-box .form-check label {
+
+.nft-section .create-nft-box .form-check label 
+{
   font-size: 16px;
   line-height: 22px;
   font-weight: 500;
   margin-left: 15px;
   display: block;
 }
-.nft-section .create-nft-box .btn {
+
+.nft-section .create-nft-box .btn 
+{
   font-size: 18px;
   line-height: 18px;
   font-weight: 500;
