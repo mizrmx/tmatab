@@ -114,6 +114,10 @@ a
   text-transform: uppercase;
 }
 
+.display-none
+{
+  display: none;
+}
 /******************************
   HEADER AND BANNER SECTION
 ******************************/
