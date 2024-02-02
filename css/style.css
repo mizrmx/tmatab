@@ -499,7 +499,7 @@ a
   font-weight: 700;
   margin-bottom: 10px;
   letter-spacing: 0px;
-  padding: 36px 102px 0px;
+  padding: 36px 88px 0px;
   text-decoration: none;
   text-transform: uppercase;
   transition: all ease-in-out 1s;
@@ -692,13 +692,13 @@ nav.fill ul li a:after
 .about-us-section
 {
   background: var(--e-global-color-dark-blue2);
-  padding: 126px 0 91px;
+  padding: 105px 0 91px;
   position: relative;
 }
 
 .about-us-section:before 
 {
-  background: url(../img/aboutus-background.png);
+  background: url(../img/background/bg-aboutus.png);
   content: "";
   position: absolute;
   top:0px;
