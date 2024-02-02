@@ -2442,49 +2442,67 @@ h2 {
 .our-services-section .autorix-text:before {
   left: -162px;
 }
-/* our-mission */
-.mission-section {
-  padding: 60px 0 30px;
-}
-.mission-section .autorix-text:before {
-  width: 27px;
-  height: 16px;
-  top: 0px;
-  left: 185px;
-}
-.mission-section .about-us-content{
-  text-align: center;
-}
-.mission-section .autorix-text {
-  margin-left: 30px;
-  margin-bottom: 12px;
-}
-.mission-section h2 {
-  margin-bottom: 10px;
-  font-size: 32px;
-  line-height: 35px;
-}
-.mission-section .about-us-content .our-mission-p2 {
-  margin-bottom: 22px;
-  padding: 0 51px;
-}
-.mission-section .about-us-content .our-mission-p1 {
-  margin-bottom: 6px;
-  padding: 0 30px;
-}
-.mission-section .about-us-content .smart-tools-li{
-  margin-left: -16px;
-}
-.mission-section .mission-red-box {
-  padding: 50px 46px;
-}
-.mission-section .input-text {
-  padding: 24px 26px;
-}
-/* offer-section */
-.offer-section .offer-content .discount-text {
-  letter-spacing: 1px;
-}
+  /* our-mission */
+  .mission-section 
+  {
+    padding: 60px 0 160px;
+  }
+  .mission-section .autorix-text:before 
+  {
+    width: 27px;
+    height: 16px;
+    top: 0px;
+    left: 185px;
+  }
+  .mission-section .about-us-content
+  {
+    text-align: center;
+  }
+
+  .mission-section .autorix-text 
+  {
+    margin-left: 30px;
+    margin-bottom: 12px;
+  }
+
+  .mission-section h2 
+  {
+    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .mission-section .about-us-content .our-mission-p2 
+  {
+    margin-bottom: 22px;
+    padding: 0 51px;
+  }
+
+  .mission-section .about-us-content .our-mission-p1 
+  {
+    margin-bottom: 6px;
+    padding: 0 30px;
+  }
+
+  .mission-section .about-us-content .smart-tools-li
+  {
+    margin-left: -16px;
+  }
+
+  .mission-section .mission-red-box 
+  {
+    padding: 50px 46px;
+  }
+
+  .mission-section .input-text 
+  {
+    padding: 24px 26px;
+  }
+  /* offer-section */
+  .offer-section .offer-content .discount-text 
+  {
+    letter-spacing: 1px;
+  }
 .offer-section .banner-btn a {
   padding: 13px 20px 13px 26px !important;
 }
@@ -3220,39 +3238,53 @@ h1 {
 .our-services-section .our-services-content {
   margin-bottom: 20px;
 }
-/* about-us */
-.about-us-section .about-content .about-content-box span {
-  font-size: 33px;
-  line-height: 33px;
-}
-.about-us-section .about-content .about-content-box .about-plus {
-  font-size: 35px;
-  line-height: 33px;
-}
-/* whychooseus */
-.whychoose-section {
-  padding: 57px 0 37px;
-}
-.whychoose-section .autorix-text:before {
-  left: -170px;
-  width: 24px;
-  height: 16px;
-}
-.whychoose-section h2 {
-  padding: 0 10px;
-  margin-bottom: 18px;
-}
-.whychoose-section .blogs-section .blogs-h5 {
-  padding: 20px 20px 0px;
-  margin-bottom: 5px;
-}
-.whychoose-section .blogs-section {
-  padding: 0px 0 15px;
-}
-.whychoose-section .blogs-section .read-more a i {
-  font-size: 14px;
-  line-height: 26px;
-}
+  /* about-us */
+  .about-us-section .about-content .about-content-box span 
+  {
+    font-size: 33px;
+    line-height: 33px;
+  }
+
+  .about-us-section .about-content .about-content-box .about-plus 
+  {
+    font-size: 35px;
+    line-height: 33px;
+  }
+  /* whychooseus */
+  .whychoose-section 
+  {
+    padding: 57px 0 145px;
+  }
+
+  .whychoose-section .autorix-text:before 
+  {
+    left: -170px;
+    width: 24px;
+    height: 16px;
+  }
+
+  .whychoose-section h2 
+  {
+    padding: 0 10px;
+    margin-bottom: 18px;
+  }
+
+  .whychoose-section .blogs-section .blogs-h5 
+  {
+    padding: 20px 20px 0px;
+    margin-bottom: 5px;
+  }
+
+  .whychoose-section .blogs-section 
+  {
+    padding: 0px 0 15px;
+  }
+
+  .whychoose-section .blogs-section .read-more a i 
+  {
+    font-size: 14px;
+    line-height: 26px;
+  }
 h2 {
   font-size: 24px;
   line-height: 28px;
@@ -3263,7 +3295,7 @@ h2 {
 }
 .whychoose-section .whychoseus-left-img {
   margin-bottom: 0;
-  bottom: -124px;
+  bottom: -71px;
 }
 /* aboutus */
 .about-us-section .about-text:before {
