@@ -2439,8 +2439,9 @@ h2 {
   font-size: 18px;
   line-height: 20px;
 }
-.our-services-section .autorix-text:before {
-  left: -162px;
+  .our-services-section .autorix-text:before 
+  {
+    left: -162px;
 }
   /* our-mission */
   .mission-section 
