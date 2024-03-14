@@ -266,6 +266,7 @@ h1 {
     line-height: 96px;
     right: -30px;
     bottom: 302px;
+    top: 60px;
   }
 
   .our-work-section .owl-carousel .owl-nav button.owl-prev span 
@@ -274,6 +275,7 @@ h1 {
     line-height: 96px;
     left: -28px;
     bottom: 302px;
+    top: 60px;
   }
 /* about-page */
 .sub-header-section:before {
