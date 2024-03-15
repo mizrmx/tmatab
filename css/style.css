@@ -463,7 +463,13 @@ a
 *************************/
 .whychoose-section
 {
-  padding: 142px 0 110px;
+  width: 100%;
+  height: 1000px;
+}
+
+.whychoose-container
+{
+  margin-top: 100px;
 }
 
 .whychoose-section h2
@@ -509,6 +515,7 @@ a
   transition: all ease-in-out 0.3s;
   border-bottom: 2px solid var(--e-global-color-secondary);
 }
+
 /* .whychoose-section .blogs-section:hover{
   border-bottom: 2px solid var(--e-global-color-dark-blue);
 } */
@@ -519,12 +526,10 @@ a
   color: var(--e-global-color-primary);
   text-align: center;
   font-weight: 700;
-  margin-bottom: 10px;
-  letter-spacing: 0px;
-  padding: 36px 88px 0px;
   text-decoration: none;
   text-transform: uppercase;
   transition: all ease-in-out 1s;
+  margin-top: 30px;
 }
 
 .whychoose-section .blogs-section .read-more a
