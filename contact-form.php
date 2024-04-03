@@ -29,13 +29,13 @@ if(isset($name) && isset($phone) && isset($emailHelp))
 		{
 			  $status='Success';
 			//Displays the success message when email message is sent
-			  $output="Congrats ".$name.", your email message has been sent successfully! We will get back to you as soon as possible. Thanks.";
+			  $output="Felicidades ".$name.", tu mensaje se ha envidado correctamennte! Pronto nos comunicaremos contigo.";
 		} 
 		else 
 		{
 			 $status='error';
 			 //Displays an error message when email sending fails
-			  $output="Sorry, your email could not be sent at the moment. Please try again or contact this website admin to report this error message if the problem persist. Thanks.";
+			  $output="Lo siento, el mensaje no se puede enviar en estos momentos. Intenta de nuevo, gracias";
 		}
 		
 }
