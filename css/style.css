@@ -522,6 +522,7 @@ a
 
 .whychoose-section .blogs-section .blogs-h5
 {
+  font-size: 20px;
   letter-spacing: 0.1px !important;
   color: var(--e-global-color-primary);
   text-align: center;
@@ -685,14 +686,11 @@ nav.fill ul li a:after
 .whychoose-section .blogs-section .blogs-p
 {
   color: var(--e-global-color-text);
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 16px;
   text-align: center;
   font-weight: 400;
-  margin-bottom: 23px;
-  padding: 0 43px;
+  padding: 0 30px;
   text-decoration: none;
-  word-spacing: 1px;
   transition: all ease-in-out 0.3s;
 }
 
@@ -1873,7 +1871,7 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
 .logo-slider .slide 
 {
 	height: 150px;
-	width: 250px;
+	width: 200px;
 	padding: 20px;
 }
 
