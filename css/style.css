@@ -778,7 +778,7 @@ small
 
 .modal-window > div 
 {
-  width: 400px;
+  width: 450px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -794,19 +794,19 @@ small
 
 .modal-window h1 
 {
-  font-size: 23px;
-  word-spacing: 5px;
+  font-size: 25px;
+  word-spacing: 7px;
 }
 
 .modal-close 
 {
-  color: #aaa;
+  color: #222;
   line-height: 50px;
-  font-size: 80%;
+  font-size: 16px;
   position: absolute;
-  right: 0;
+  right: 10px;
   text-align: center;
-  top: 0;
+  top: 7px;
   width: 70px;
   text-decoration: none;
 }
@@ -816,7 +816,11 @@ small
   color: black;
 }
 
-
+.modal-img img
+{
+  width: 410px;
+  height: auto;
+}
 
 /***********************
   ABOUT US SECTION
