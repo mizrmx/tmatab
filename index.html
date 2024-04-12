@@ -99,10 +99,15 @@ crossorigin="anonymous" referrerpolicy="no-referrer">
                         <div class="col-lg-6 col-md-12 col-sm-12 mb-md-0 mb-4 text-md-left text-center">
                             <div class="social-icons position-relative" data-aos="zoom-out-left">
                                 <ul class="list-unstyled position-absolute">
-                                    <li><a class="text-decoration-none" href="#"><i class="fa-regular fa-horizontal-rule"></i></a></li>
+                                    <li>
+                                        <a class="text-decoration-none" href="#">
+                                            <i class="fa-regular fa-horizontal-rule"></i>
+                                        </a>
+                                    </li>
+
                                     <li>
                                         <a href="https://www.facebook.com/profile.php?id=61553118386445" target="_blank" class="text-decoration-none">
-                                        <i class="fa-brands fa-facebook-f social-networks"></i>
+                                            <i class="fa-brands fa-facebook-f social-networks"></i>
                                         </a>
                                     </li>
                                     <!--<li><a href="#" target="_blank" class="text-decoration-none"><i class="fa-brands fa-twitter social-networks"></i></a></li>
@@ -115,7 +120,8 @@ crossorigin="anonymous" referrerpolicy="no-referrer">
                                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                                   <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                                   <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                </ol>
+                                </ol> 
+
                                 <div class="carousel-inner">
                                   <div class="carousel-item active">
                                     <div class="home-banner-text">
@@ -279,7 +285,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer">
 
     <!-- Our-services-SECTION -->
     <section id="servicios" class="our-services-section overflow-hidden">
-        <div class="container">
+        <div class="container our-services-container">
             <div class="row">
                 <div class="col-12">
                     <h6 class="autorix-text text-center">Servicios</h6>
@@ -378,19 +384,19 @@ crossorigin="anonymous" referrerpolicy="no-referrer">
                         <h2  data-aos="fade-zoom-in">TU SEGURIDAD ES NUESTRA SATISFACCION</h2>      
                         <p class="our-mission-p1">Nos dedicamos a garantizar que tu vehículo esté en óptimas condiciones, para que puedas seguir en la carretera con confianza y tranquilidad. ¡Tu seguridad es nuestra mayor satisfacción!</p>
                         <ul class="list-unstyled list-margin-bottom">
-                            <li class="d-inline-block mb-3">
+                            <li class="d-inline-block mb-3 mision-soporte">
                                 <i class="fa-solid fa-check ml-0"></i>
                                 <span class="d-inline-block email-span text-decoration-none list-span">24/7 Soporte</span>
                             </li>
-                            <li class="d-inline-block mb-3 user-li">
+                            <li class="d-inline-block mb-3 user-li mision-experto">
                                 <i class="fa-solid fa-check"></i>
                                 <span class="d-inline-block user-span text-decoration-none list-span">Equipo de experto</span>
                             </li>
-                            <li class="d-inline-block mb-3 mr-lg-1 smart-tools-li">
+                            <li class="d-inline-block mb-3 mr-lg-1 smart-tools-li mision-herramientas">
                                 <i class="fa-solid fa-check ml-0 last-li-form-section"></i>
                                 <span class="d-inline-block email-span text-decoration-none list-span">Herramientas Inteligentes</span>
                             </li>
-                            <li class="d-inline-block mb-3 user-li">
+                            <li class="d-inline-block mb-3 user-li mision-trabajo">
                                 <i class="fa-solid fa-check"></i>
                                 <span class="d-inline-block user-span text-decoration-none list-span">Trabajo rápido</span>
                             </li>
@@ -415,7 +421,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer">
                             </div>
                         </form>
                             <div class="banner-btn discover-btn-banner text-center" data-aos="fade-right">
-                                <a href="#" class="text-decoration-none">Enviar <i class="fa-solid fa-arrow-right"></i></a>
+                                <a href="#" class="text-decoration-none btn-mision-form">Enviar <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                     </div>
                 </div>
@@ -530,13 +536,13 @@ crossorigin="anonymous" referrerpolicy="no-referrer">
     <!-- Footer-Section -->
     <div class="footer-section">
         <div class="container">
-            <div class="row">
-                <div class="col-xl-3 col-lg-4 col-md-3 col-sm-6 d-xl-block d-none">
-                </div>
+            <div class="row footer-center">
+                <!--<div class="col-xl-3 col-lg-4 col-md-3 col-sm-6 d-xl-block d-none">
+                </div>-->
                 <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
                     <a class="footer-a pt-0" href="index.html">
                         <figure class="navbar-brand-footer" data-aos="flip-left">
-                            <img src="img/tmatab-logo.png" alt="" class="img-fluid">
+                            <img src="img/tmatab-logo.png" alt="" class="img-fluid logo-footer">
                         </figure>
                     </a>
                     <p class="foot-text" data-aos="flip-left">Taller Multiservicios Aviación SAS de CV, es una empresa especializada 
@@ -553,7 +559,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer">
                     </div>
                 </div>
                 
-                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 d-md-block d-none">
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 d-md-block">
                    <!--- <h5>Información de contacto</h5>-->
                     
                     <ul class="list-unstyled" data-aos="flip-left">
@@ -577,7 +583,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer">
                     </ul>
                 </div>
 
-                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 d-md-block d-none">
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 d-md-block">
                     <div class="icon-list-box1" data-aos="flip-left">
                         <ul class="list-unstyled contact-us-ul">
                             <li>
