@@ -4880,4 +4880,9 @@
   {
     margin-top: 30px;
   }
+
+  .about-us-section figure .about-center-img
+  {
+    width: 59%;
+  }
 }
