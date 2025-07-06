@@ -17,6 +17,16 @@
   font-style: normal;
 }
 
+.title-volvonovum
+{
+  font-family: 'VolvoNovum3-Regular';
+}
+
+.title-volvobroad
+{
+  font-family: 'VolvoBroadSpread';
+  letter-spacing: 2px;
+}
 /*------------------------------------------------------------------
 [Master Stylesheet]
 Project: Autorix
@@ -220,12 +230,12 @@ a
   padding: 18px 23px 18px 36px !important;
   display: inline-block;
   border-radius: 57px;
-  font-weight: 700;
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
   border: 1px solid var(--e-global-color-dark-blue);
   transition: all ease-in-out 0.3s;
+  font-family: 'VolvoNovum3-Regular';
 }
 
 .btn-talk
@@ -328,12 +338,13 @@ a
 
 .banner-paragraph 
 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 25px;
   word-spacing: 0px;
   margin-bottom: 40px;
   padding-right: 134px;
+  font-family: 'VolvoNovum3-Regular';
 }
 
 .home-banner-section .banner-container-box  .social-icons ul
@@ -406,6 +417,7 @@ a
   text-transform: uppercase;
   border: 1px solid var(--e-global-color-dark-blue);
   transition: all ease-in-out 0.3s;
+  font-family: 'VolvoNovum3-Regular';
 }
 
 .home-banner-section .banner-btn a i 
@@ -521,6 +533,13 @@ a
   /*color: var(--e-global-color-red);*/
   margin-bottom:16px;
   text-transform: uppercase;
+  font-family: 'VolvoNovum3-Regular';
+}
+
+.title-whychoose
+{
+  font-family: 'VolvoBroadSpread';
+  letter-spacing: 2px;
 }
 
 .whychoose-section .blogs-section 
@@ -544,7 +563,7 @@ a
 .whychoose-section .blogs-section .blogs-h5
 {
   font-size: 20px;
-  letter-spacing: 0.1px !important;
+  letter-spacing: 2px;
   color: var(--e-global-color-primary);
   text-align: center;
   font-weight: 700;
@@ -552,6 +571,7 @@ a
   text-transform: uppercase;
   transition: all ease-in-out 1s;
   margin-top: 30px;
+  font-family: 'VolvoBroadSpread';
 }
 
 .whychoose-section .blogs-section .read-more a
@@ -563,6 +583,7 @@ a
   font-weight: 700;
   margin-right: 12px;
   transition: all ease-in-out 1s;
+  font-family: 'VolvoNovum3-Regular';
 }
 
 .whychoose-section .blogs-section .read-more a:after,
@@ -709,10 +730,10 @@ nav.fill ul li a:after
   color: var(--e-global-color-text);
   font-size: 16px;
   text-align: center;
-  font-weight: 400;
-  padding: 0 30px;
+  padding: 0 34px;
   text-decoration: none;
   transition: all ease-in-out 0.3s;
+  font-family: 'VolvoNovum3-Regular';
 }
 
 .whychoose-section .whychoseus-left-img
@@ -738,7 +759,7 @@ nav.fill ul li a:after
   display: grid;
   justify-content: center;
   align-items: center;
-  height: 9vh;
+  height: 8vh;
 }
 
 .modal-window > div a
@@ -900,8 +921,8 @@ small
 {
   color: var(--e-global-color-secondary);
   text-transform: uppercase;
-  letter-spacing: -1.5px;
   margin-bottom: 17px;
+  line-height: 35px;
 }
 
 .about-us-section .about-content p
@@ -1166,12 +1187,9 @@ small
 .mission-section .about-us-content .list-span 
 {
   color: var(--e-global-color-primary);
-  font-weight: 700;
   font-size: 18px;
-  line-height: 20px;
   text-transform: uppercase;
   word-spacing: 0px;
-  letter-spacing: 0.3px;
 }
 
 .mission-section .our-mission-figure-box
@@ -1188,12 +1206,12 @@ color:var(--e-global-color-text)
 
 .mission-section .about-us-content .our-mission-p1 
 {
-  margin-bottom: 8px;
+  margin-bottom: 30px;
 }
 
 .mission-section .about-us-content .our-mission-p2 
 {
- margin-bottom:26px;
+ margin-bottom: 26px;
 }
 
 .mission-section .mission-red-box
@@ -1214,10 +1232,9 @@ color:var(--e-global-color-text)
 .mission-section .mission-red-box h5
 {
   color: var(--e-global-color-secondary);
-  font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 30px;
-  word-spacing: -1px;
+  font-size: 30px;
 }
 
 .mission-section .mission-red-box .banner-btn a 
@@ -2289,10 +2306,10 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
 .footer-bar .footer-bar-content .text-size-16
 {
   color: var(--e-global-color-soft-blue);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 26px;
-  font-weight: 400;
 }
+
 .footer-bar{
   background: var(--e-global-color-blue-f);
   padding:31px 0;
@@ -2384,6 +2401,7 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
   font-weight: 400;
   color: var(--e-global-color-secondary);
   margin-bottom: 7px;
+  font-family: 'VolvoNovum3-Regular';
 }
 
 /*.footer-section .support-footer .footer-days:hover
