@@ -1,52 +1,48 @@
 <?php
-$name= $_POST['name'];
-$phone= $_POST['phone'];
-$emailHelp= $_POST['email'];
-$comments=$_POST['comments'];
+// Sanitizar entradas
+$name = htmlspecialchars(trim($_POST['name'] ?? ''));
+$phone = htmlspecialchars(trim($_POST['phone'] ?? ''));
+$emailHelp = filter_var(trim($_POST['email'] ?? ''), FILTER_SANITIZE_EMAIL);
+$comments = htmlspecialchars(trim($_POST['comments'] ?? ''));
 
-if(isset($name) && isset($phone) && isset($emailHelp))
-{
-	global $to_email,$vpb_message_body,$headers;
-	$to_email="rmayra2010@gmail.com";
-	// $email_subject="Inquiry From Contact Page";
-	$vpb_message_body = nl2br("Dear Admin,\n
-	The user whose detail is shown below has sent this message from ".$_SERVER['HTTP_HOST']." dated ".date('d-m-Y').".\n
-	
-	name: ".$name."\n
-	Email Address: ".$emailHelp."\n
-    Phone: ".$phone."\n
+// Validar campos obligatorios
+if (!empty($name) && !empty($phone) && !empty($emailHelp) && filter_var($emailHelp, FILTER_VALIDATE_EMAIL)) {
 
-	Message: ".$comments."\n
-	User Ip:".getHostByName(getHostName())."\n
-	Thank You!\n\n");
-	
-	//Set up the email headers
-    $headers    = "From: $name <$emailHelp>\r\n";
-    $headers   .= "Content-type: text/html; charset=iso-8859-1\r\n";
-    $headers   .= "Message-ID: <".time().rand(1,1000)."@".$_SERVER['SERVER_NAME'].">". "\r\n"; 
-   
-	 if(@mail($to_email, $vpb_message_body, $headers))
-		{
-			  $status='Success';
-			//Displays the success message when email message is sent
-			  $output="Felicidades ".$name.", tu mensaje se ha envidado correctamennte! Pronto nos comunicaremos contigo.";
-		} 
-		else 
-		{
-			 $status='error';
-			 //Displays an error message when email sending fails
-			  $output="Lo siento, el mensaje no se puede enviar en estos momentos. Intenta de nuevo, gracias";
-		}
-		
+    $to_email = "rmayra2010@gmail.com";
+    $subject = "Nuevo mensaje desde el formulario de contacto";
+
+    $message = "
+    <html>
+    <head><title>Nuevo mensaje</title></head>
+    <body>
+        <p><strong>Nombre:</strong> {$name}</p>
+        <p><strong>Email:</strong> {$emailHelp}</p>
+        <p><strong>Teléfono:</strong> {$phone}</p>
+        <p><strong>Mensaje:</strong><br>{$comments}</p>
+        <p><strong>IP del usuario:</strong> " . $_SERVER['REMOTE_ADDR'] . "</p>
+        <p>Enviado desde: " . $_SERVER['HTTP_HOST'] . " el día " . date('d-m-Y') . "</p>
+    </body>
+    </html>
+    ";
+
+    $headers  = "MIME-Version: 1.0\r\n";
+    $headers .= "Content-type: text/html; charset=UTF-8\r\n";
+    $headers .= "From: {$name} <{$emailHelp}>\r\n";
+    $headers .= "Reply-To: {$emailHelp}\r\n";
+
+    if (mail($to_email, $subject, $message, $headers)) {
+        $status = 'success';
+        $output = "Felicidades {$name}, tu mensaje se ha enviado correctamente. ¡Pronto nos comunicaremos contigo!";
+    } else {
+        $status = 'error';
+        $output = "Lo siento, el mensaje no se pudo enviar. Intenta de nuevo más tarde.";
+    }
+
+} else {
+    $status = 'error';
+    $output = "Por favor, llena todos los campos requeridos con información válida.";
 }
-else{
 
-	echo $name;
-	$status='error';
-	$output="please fill require fields";
-	
-	}
-echo json_encode(array('status'=> $status, 'msg'=>$output));
-
-
+// Devolver respuesta JSON
+echo json_encode(['status' => $status, 'msg' => $output]);
 ?>
