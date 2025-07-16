@@ -1,30 +1,30 @@
 
 @font-face 
 {
-  font-family: 'VolvoBroadSpread';
-  src: url('../fonts/VolvoBroadSpread.woff2') format('woff2'),
-       url('../fonts/VolvoBroadSpread.woff') format('woff');
+  font-family: 'VolvoBroad';
+  src: url('../fonts/Volvo-Broad-Spread.woff') format('woff'),
+       url('../fonts/Volvo-Broad-Spread.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face 
 {
-  font-family: 'VolvoNovum3-Regular';
-  src: url('../fonts/VolvoNovum3-Regular.woff2') format('woff2'),
-       url('../fonts/VolvoNovum3-Regular.woff') format('woff');
+  font-family: 'VolvoNovum';
+  src: url('../fonts/VolvoNovum.woff2') format('woff2'),
+       url('../fonts/VolvoNovum.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
-.title-volvonovum
+.text-volvonovum
 {
-  font-family: 'VolvoNovum3-Regular';
+  font-family: 'VolvoNovum';
 }
 
 .title-volvobroad
 {
-  font-family: 'VolvoBroadSpread';
+  font-family: 'VolvoBroad';
   letter-spacing: 2px;
 }
 /*------------------------------------------------------------------
@@ -75,37 +75,30 @@ h1
 {
   font-size: 64px;
   line-height: 70px;
-  font-weight: 700;
-  word-spacing: 10px;
-  letter-spacing: -1px;
 }
 
 h2 
 {
   font-size: 35px;
   line-height: 54px;
-  font-weight: 700;
 }
 
 h3 
 {
   font-size: 33px;
   line-height: 46px;
-  font-weight: 700;
 }
 
 h4 
 {
   font-size: 24px;
   line-height: 28px;
-  font-weight: 700;
 }
 
 h5 
 {
   font-size: 22px;
   line-height: 24px;
-  font-weight: 600;
   letter-spacing: 0.8px;
 }
 
@@ -113,22 +106,18 @@ h6
 {
   font-size: 18px;
   line-height: 18px;
-  font-weight: 600;
 }
 
 p 
 {
-  font-family: 'Mulish', sans-serif;
-  font-size: 18px;
-  line-height:26px;
-  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 a 
 {
   font-size: 18px;
   line-height: 18px;
-  font-weight: 400;
 }
 
 .text-uppercase
@@ -194,14 +183,14 @@ a
   text-transform: uppercase;
   font-size: 15px;
   line-height: 20px;
-  font-weight: 400;
-  font-family: 'VolvoNovum3-Regular';
+  font-family: 'VolvoNovum';
 }
 
 .title-carousel
 {
-  font-family: 'VolvoBroadSpread';
-  letter-spacing: 2px;
+  font-family: 'VolvoBroad';
+  letter-spacing: 6px;
+  font-size: 47px;
 }
 
 .navbar-light .navbar-nav .nav-link 
@@ -235,7 +224,7 @@ a
   text-transform: uppercase;
   border: 1px solid var(--e-global-color-dark-blue);
   transition: all ease-in-out 0.3s;
-  font-family: 'VolvoNovum3-Regular';
+  font-family: 'VolvoNovum';
 }
 
 .btn-talk
@@ -339,12 +328,11 @@ a
 .banner-paragraph 
 {
   font-size: 18px;
-  font-weight: 400;
   line-height: 25px;
   word-spacing: 0px;
   margin-bottom: 40px;
   padding-right: 134px;
-  font-family: 'VolvoNovum3-Regular';
+  font-family: 'VolvoNovum';
 }
 
 .home-banner-section .banner-container-box  .social-icons ul
@@ -363,7 +351,7 @@ a
   letter-spacing: 0px;
   margin-bottom: 24px;
   margin-left: 43px;
-  font-family: 'VolvoNovum3-Regular';
+  font-family: 'VolvoNovum';
 }
 
 .autorix-text:before 
@@ -417,7 +405,7 @@ a
   text-transform: uppercase;
   border: 1px solid var(--e-global-color-dark-blue);
   transition: all ease-in-out 0.3s;
-  font-family: 'VolvoNovum3-Regular';
+  font-family: 'VolvoNovum';
 }
 
 .home-banner-section .banner-btn a i 
@@ -521,7 +509,7 @@ a
   height: 20px;
   position: absolute;
   top: -2px;
-  left: -180px;
+  left: -190px;
   right: 0;
   margin: 0 auto;
 }
@@ -533,12 +521,12 @@ a
   /*color: var(--e-global-color-red);*/
   margin-bottom:16px;
   text-transform: uppercase;
-  font-family: 'VolvoNovum3-Regular';
+  font-family: 'VolvoNovum';
 }
 
 .title-whychoose
 {
-  font-family: 'VolvoBroadSpread';
+  font-family: 'VolvoBroad';
   letter-spacing: 2px;
 }
 
@@ -566,12 +554,11 @@ a
   letter-spacing: 2px;
   color: var(--e-global-color-primary);
   text-align: center;
-  font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
   transition: all ease-in-out 1s;
   margin-top: 30px;
-  font-family: 'VolvoBroadSpread';
+  font-family: 'VolvoBroad';
 }
 
 .whychoose-section .blogs-section .read-more a
@@ -580,10 +567,9 @@ a
   color: var(--e-global-color-dark-blue) !important;
   font-size: 16px;
   line-height: 30px;
-  font-weight: 700;
   margin-right: 12px;
   transition: all ease-in-out 1s;
-  font-family: 'VolvoNovum3-Regular';
+  font-family: 'VolvoNovum';
 }
 
 .whychoose-section .blogs-section .read-more a:after,
@@ -733,7 +719,7 @@ nav.fill ul li a:after
   padding: 0 34px;
   text-decoration: none;
   transition: all ease-in-out 0.3s;
-  font-family: 'VolvoNovum3-Regular';
+  font-family: 'VolvoNovum';
 }
 
 .whychoose-section .whychoseus-left-img
@@ -970,7 +956,6 @@ small
 {
   font-size: 16px;
   line-height: 22px;
-  font-weight: 400;
 }
 
 .about-us-section .about-content .box-margin-left
@@ -982,7 +967,6 @@ small
 {
   font-size: 40px;
   line-height: 42px;
-  font-weight: 700;
 }
 
 /********************************
@@ -1281,7 +1265,7 @@ color:var(--e-global-color-text)
   line-height: 24px;
   color: var(--e-global-color-form-text);
   background: var(--e-global-color-secondary);
-  font-family: 'Mulish', sans-serif;
+  font-family: 'VolvoNovum';
   font-weight: 400;
 }
 
@@ -2401,7 +2385,7 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
   font-weight: 400;
   color: var(--e-global-color-secondary);
   margin-bottom: 7px;
-  font-family: 'VolvoNovum3-Regular';
+  font-family: 'VolvoNovum';
 }
 
 /*.footer-section .support-footer .footer-days:hover
@@ -2517,7 +2501,7 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
 }
 
 .sub-header-section .sub-banner-section .banner-btn span, .sub-header-section .sub-banner-section .banner-btn a {
-  font-family: 'Mulish', sans-serif;
+  font-family: 'VolvoNovum';
 }
 .sub-header-section .sub-banner-section .banner-btn .btn-inner .text-bars {
   display: inline-block;
@@ -2727,7 +2711,7 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
   font-weight: 400;
   color: var(--e-global-color-secondary);
   letter-spacing: 0;
-  font-family: 'Mulish', sans-serif;  
+  font-family: 'VolvoNovum';  
 }
 
 .best-choice-section .autorix-text:before {
@@ -3322,7 +3306,7 @@ box-shadow: 0px 7px 21px 0 #dae0e5;
   width: 97% !important;
 }
 .nft-section .create-nft-box .form-group .form-control {
-  font-family: 'Jost', sans-serif;
+  font-family: 'VolvoNovum';
   font-size: 16px;
   font-weight: 500;
   height: 61px;
