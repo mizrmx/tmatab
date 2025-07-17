@@ -2,8 +2,8 @@
 @font-face 
 {
   font-family: 'VolvoBroad';
-  src: url('../fonts/Volvo-Broad-Spread.woff') format('woff'),
-       url('../fonts/Volvo-Broad-Spread.woff2') format('woff2');
+  src: url('../fonts/VolvoBroad.woff') format('woff'),
+       url('../fonts/VolvoBroad.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -19,13 +19,12 @@
 
 .text-volvonovum
 {
-  font-family: 'VolvoNovum';
+  font-family: 'VolvoNovum', sans-serif;
 }
 
 .title-volvobroad
 {
-  font-family: 'VolvoBroad';
-  letter-spacing: 2px;
+  font-family: 'VolvoBroad', sans-serif;
 }
 /*------------------------------------------------------------------
 [Master Stylesheet]
@@ -79,8 +78,9 @@ h1
 
 h2 
 {
-  font-size: 35px;
-  line-height: 54px;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 1px;
 }
 
 h3 
@@ -189,8 +189,8 @@ a
 .title-carousel
 {
   font-family: 'VolvoBroad';
-  letter-spacing: 6px;
-  font-size: 47px;
+  letter-spacing: 2px;
+  font-size: 50px;
 }
 
 .navbar-light .navbar-nav .nav-link 
@@ -332,7 +332,7 @@ a
   word-spacing: 0px;
   margin-bottom: 40px;
   padding-right: 134px;
-  font-family: 'VolvoNovum';
+  font-family: 'VolvoNovum', sans-serif;
 }
 
 .home-banner-section .banner-container-box  .social-icons ul
@@ -351,7 +351,7 @@ a
   letter-spacing: 0px;
   margin-bottom: 24px;
   margin-left: 43px;
-  font-family: 'VolvoNovum';
+  font-family: 'VolvoNovum', sans-serif;
 }
 
 .autorix-text:before 
@@ -405,7 +405,7 @@ a
   text-transform: uppercase;
   border: 1px solid var(--e-global-color-dark-blue);
   transition: all ease-in-out 0.3s;
-  font-family: 'VolvoNovum';
+  font-family: 'VolvoNovum', sans-serif;
 }
 
 .home-banner-section .banner-btn a i 
@@ -521,13 +521,13 @@ a
   /*color: var(--e-global-color-red);*/
   margin-bottom:16px;
   text-transform: uppercase;
-  font-family: 'VolvoNovum';
+  font-family: 'VolvoNovum', sans-serif;
 }
 
 .title-whychoose
 {
-  font-family: 'VolvoBroad';
-  letter-spacing: 2px;
+  font-family: 'VolvoBroad', sans-serif;
+  font-size: 40px;
 }
 
 .whychoose-section .blogs-section 
@@ -550,8 +550,7 @@ a
 
 .whychoose-section .blogs-section .blogs-h5
 {
-  font-size: 20px;
-  letter-spacing: 2px;
+  font-size: 25px;
   color: var(--e-global-color-primary);
   text-align: center;
   text-decoration: none;
@@ -893,7 +892,6 @@ small
 {
   color: var(--e-global-color-secondary);
   margin-left: 36px;
-  text-transform: uppercase;
   margin-bottom: 17px;
   margin-top: -8px
 }
